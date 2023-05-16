@@ -1,10 +1,13 @@
-[gd_scene load_steps=2 format=2]
+[gd_scene load_steps=3 format=2]
 
 [ext_resource path="res://assets/Character v.2/characters/char4.png" type="Texture" id=1]
+[ext_resource path="res://Player/Player.gd" type="Script" id=2]
 
 [node name="Kitchen" type="Node2D"]
 
 [node name="Player" type="KinematicBody2D" parent="."]
+position = Vector2( 136, 77 )
+script = ExtResource( 2 )
 __meta__ = {
 "_edit_group_": true
 }
