@@ -11,7 +11,6 @@ config_version=4
 [application]
 
 config/name="2D-Psychosis"
-run/main_scene="res://Town.tscn"
 config/icon="res://icon.png"
 
 [gui]
